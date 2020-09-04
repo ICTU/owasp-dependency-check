@@ -1,3 +1,10 @@
+# Deprecated
+
+The original use-case for this image was to provide an embedded up-to-date NVD database to prevent from being blocked by NVD because of too many downloads each time the image starts. This is not the case anymore, so it is better to use the original image:
+
+https://www.owasp.org/index.php/OWASP_Dependency_Check
+[Docker image] https://hub.docker.com/r/owasp/dependency-check
+
 # OWASP Dependency Check with pre-seeded database
 
  [![license](https://img.shields.io/badge/license-MIT-blue.svg?style=plastic)](https://github.com/ICTU/owasp-dependency-check/blob/master/LICENSE)
